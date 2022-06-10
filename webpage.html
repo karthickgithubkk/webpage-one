@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="webpage">
+    <title>webpage</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .img {
+            height: 100vh;
+            width: 100vw;
+            background: linear-gradient(to right, rgba(194, 145, 145, 0.1), rgb(115, 178, 151)), url(../../image/pexels-arist-creathrive-2253573.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 30px;
+            padding-left: 8%;
+            padding-right: 8%;
+        }
+
+        .button {
+            color: white;
+            font-size: 35px;
+            letter-spacing: 1px;
+        }
+
+        span {
+            color: red;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 10px 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+
+        nav ul li a:hover {
+            color: red;
+        }
+
+        .button {
+            background-color: red;
+            color: white;
+            text-decoration: none;
+            border: 2px solid transparent;
+            padding: 3px;
+            border-radius: 30px;
+        }
+
+        .logo {
+            width: 40px;
+            height: 10px;
+            background: url(../../image/thumps.png);
+
+        }
+
+        .content {
+            text-align: justify;
+            padding-left: 10%;
+            font-size: 100px;
+            text-transform: capitalize;
+            color: beige;
+        }
+
+        .learn {
+            border: 2px solid rebeccapurple;
+            border-radius: 5px;
+            display: inline-block;
+            background-color: blueviolet;
+            color: aquamarine;
+            font-size: 25px;
+            margin-left: 25%;
+            padding: 10px;
+
+        }
+
+        .content-two {
+            margin-top: 20%;
+            color: whitesmoke;
+            font-size: 15px;
+        }
+
+        .logo-2 {
+            margin-left: 400px;
+            color: whitesmoke;
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            background-color: paleturquoise;
+
+        }
+
+       
+
+        .one {
+
+            background-color: rgb(219, 203, 174);
+            width: 40%;
+            margin-bottom: 8px;
+            border-radius: 3%;
+            
+
+
+        }
+
+        .two {
+
+            background-color: rgb(219, 203, 174);
+            width: 40%;
+            position: absolute;
+            right: 15%;
+            top: 0%;
+            border-radius: 3%;
+
+        }
+
+        .three {
+
+            background-color: rgb(219, 203, 174);
+            width: 40%;
+            border-radius: 3%;
+        }
+
+        .four {
+
+            background-color: rgb(219, 203, 174);
+            width: 40%; 
+            position: absolute;
+            right: 15%;
+            top: 55%;  
+            
+
+
+        }
+         .border {
+             display: inline-block;
+            position: absolute;
+            right:2%;
+            width: 50%;
+            
+            margin-top: 5%;
+            
+            
+
+        }
+
+        .none {
+           padding-top: 4%;
+            font-weight: normal;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <div class="img">
+        <nav>
+            <div class="logo">
+
+            </div>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about" target="_blank">ABOUT</a></li>
+                <li><a href="./experiesis.html" target="_blank">PORTFOLIO</a></li>
+                <li><a href="./testimonial.html" target="_blank">TESTMONIAL</a></li>
+                <li><a href="./contact.html" target="_blank">CONTACT</a></li>
+                <a href="#" class="button">Component</a>
+            </ul>
+        </nav>
+        <div>
+            <h1 class="content">web developer</h1>
+            <p class="learn"> learn more</p>
+        </div>
+        <div>
+            <h3 class="content-two">Are you looking for web developer <br>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </h3>
+
+        </div>
+        </div>
+        <div class="container">
+       
+                <div class="border">
+                <div class="one">
+                    <h3 style="color:red ;">445 </h3>
+                    <img src="../../image/thumps.png" alt="" srcset="" width="20px" height="20px">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="two">
+                    <h3 style="color: red;">550</h3>
+                    <img src="../../image/thumps.png" alt="" srcset="" width="20px" height="20px">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            
+            
+                <div class="three">
+                    <h3 style="color: red;">589</h3>
+                    <img src="../../image/thumps.png" alt="" srcset="" width="20px" height="20px">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="four">
+                    <h3 style="color: red;">750</h3>
+                    <img src="../../image/thumps.png" alt="" srcset="" width="20px" height="20px">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            
+            <h3 class="none" id="about">About us </h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Read more</a>
+        </div>
+
+
+
+
+
+</body>
+
+</html>
